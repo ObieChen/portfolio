@@ -1,0 +1,215 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+　background-image:url(http://67.media.tumblr.com/tumblr_mcw1lmarvF1qhb0aoo1_1280.jpg);
+　background-repeat:no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 1px;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.toggler {
+  color:#FFF;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.navbar-toggler {
+  color:#ffffff;
+}
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+  color: #55595c;
+}
+
+.navbar-collapse .text-muted {
+  color: #55595c!important;
+}
+
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
+}
+
+.contact-styled {
+  padding-left: 0;
+  list-style: none;
+  color
+}
+
+.social a {
+  color: #55595c;
+}
+
+.social a:hover {
+  color: #818a91;
+}
+
+.jumbotron {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight:bold;
+  font-size: 3em;
+  color: #FFFFFF;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+#coverphoto {
+  height: 95vh;
+  background-image: url('images/general/greyCover.png'), url('images/general/largeCityView.jpg');
+  background-size: cover;
+  /*background-color: #666;*/
+}
+
+#coverphoto > .lead {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(204, 230, 232, 0.4);
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .5rem;
+  margin-bottom: 2rem;
+  border: solid;
+  border-width: 3px;
+  border-color: rgba(204, 230, 232, 0.4);
+}
+.auto-crop-image{
+  background-size: cover;
+  height: 280px;
+  width: 100%;
+  margin-bottom: .75rem;
+}
+
+#Skyfie{
+  background-image: url("images/portfolio/skyfie.png");
+}
+
+#LiftMenu{
+  background-image: url("images/portfolio/liftmenu.png");
+}
+
+#Skyfie:hover{
+  opacity: 50%; 
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  height: 280px;
+  /*width: 100%;*/
+}
+
+.card-text {
+  font-size: 85%;
+  letter-spacing: 0px;
+}
+
+.card p{
+  width: 100%;
+}
+.card a{
+  color: #55595c;
+  width: 100%;
+}
+
+.card a:hover{
+  color: #818a91;
+}
+
+.carousel{
+    background: #2f4357;
+    /*margin-top: 20px;*/
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.bs-example{
+  /*margin: 20px;*/
+}
+
+.image-cropper {
+max-width: 100px;
+height: auto;
+position: relative;
+overflow: hidden;
+}
+
+.image-cropper img{
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 150%; 
+  margin: 0 0 0 -20%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;  
+}
+
+footer {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  background-color: #373a3c;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  color:#FFF;
+}
+
+footer a {
+  color:#9fd3ff;
+}
